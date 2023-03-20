@@ -1,15 +1,16 @@
 # Dit Script vereist de volgende setup:
+    # 1+ windows desktop met dit script, PyCharm en file sharing enabled
+        # Pycharm geinstalleerd op het Public User account
+        # Installatie van pip 23.0.1 voor python 3.11  voor de matplotlib functie
     # 1 windows desktop met de benaming "DATABASEPC" en file sharing enabled
-# Op windows desktop "DATABASEPC", de bestanden Kandidaat.txt | StudentReg.txt | Stem.txt onder de de file path C:\Users\public\Database
-# Kandidaat.txt | Lijst met de deelnemende kandidaten
-# StudentReg.txt | Lijst met personen die gestemd hebben
-# Stem.txt | Lijst met uitgebrachte stemmen
+        # Op windows desktop "DATABASEPC", het bestand Stem.txt onder de de file path C:\Users\public\Database
+            # Stem.txt | Lijst met uitgebrachte stemmen
 
-# Toetscombinatie Alt+ f4 om het stemvenster te sluiten
+
 # --------------------------------------------------------------------------------
 
 import sys
-sys.path.append(r"C:\Users\public\PycharmProjects\pythonProject\venv\Lib\site-packages")
+sys.path.append(r"C:\Users\Public\PycharmProjects\pythonProject\venv\Lib\site-packages")
 
 import matplotlib.pyplot as plt
 
